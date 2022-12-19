@@ -9,7 +9,7 @@ export default function NavBar({ user, setUser }) {
 
   return (
     <nav>
-      <Link to="/orders">Order History</Link>
+      <Link to="/favorites">Favorite List</Link>
       &nbsp; | &nbsp;
       <Link to="/">Home</Link>
       &nbsp;&nbsp;

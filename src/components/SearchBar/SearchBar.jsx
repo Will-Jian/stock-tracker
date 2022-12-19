@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export default function SearchBar({getStock}) {
+export default function SearchBar({getStock, getTickerInfo}) {
     const [searchQuery, setSearchQuery] = useState("")
 
     function handleChange (evt) {
@@ -13,7 +13,9 @@ export default function SearchBar({getStock}) {
     function handleSubmit (evt){
         evt.preventDefault()
         let query = searchQuery.toUpperCase()
+        getTickerInfo(query)
         getStock(query)
+  
     }
 
 return(
