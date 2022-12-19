@@ -1,6 +1,6 @@
 import FavoriteStock from "../FavoriteStock/FavoriteStock"
 export default function StockInfo({stock, tickerInfo}){
-  const tickerId = props.match.params.ticker
+  
 
 
 return(
@@ -16,7 +16,7 @@ return(
         {tickerInfo.results.description}
       </p>
   
-    <FavoriteStock userFrom={localStorage.getItem('token')} tickerId ={tickerId} />
+    <FavoriteStock userFrom={localStorage.getItem('token')}  />
 </div>
       
 )

@@ -14,7 +14,7 @@ export default function FavoriteStock({props}){
  })
 
 function handleSubmit(){
-    console.log(stock)
+    
 }
 
     return(
