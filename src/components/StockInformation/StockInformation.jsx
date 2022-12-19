@@ -16,7 +16,7 @@ return(
         {tickerInfo.results.description}
       </p>
   
-    <FavoriteStock userFrom={localStorage.getItem('token')}  />
+    <FavoriteStock  />
 </div>
       
 )

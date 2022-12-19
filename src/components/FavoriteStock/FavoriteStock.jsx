@@ -5,14 +5,7 @@ import { PromiseProvider } from 'mongoose'
 
 export default function FavoriteStock({props}){
    
- useEffect(() =>{
-    const variable = {
-        userFrom: props.userFrom ,
-        tickerId: props.tickerId,
-    }
-
- })
-
+ 
 function handleSubmit(){
     
 }
