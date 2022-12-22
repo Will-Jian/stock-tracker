@@ -18,8 +18,8 @@ export default function App() {
             <NavBar user={user} setUser={setUser} />
             <Routes>
               {/* Route components in here */}
-              <Route path="/" element={<LandingPage />} />
-              <Route path="/favorites" element={<FavoritesPage />} />
+              <Route path="/" element={<LandingPage setUser={setUser} />} />
+              <Route path="/favorites" element={<FavoritesPage user={user} setUser={setUser} />} />
               
             </Routes>
           

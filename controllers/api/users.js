@@ -5,7 +5,9 @@ const User = require('../../models/user');
 module.exports = {
   create,
   login,
+  getUpdatedUser,
 };
+
 
 
 
@@ -22,7 +24,7 @@ async function create(req, res) {
 
 async function login(req, res) {
   try {
-    const user = await User.findOne({email: req.body.email});
+    const user = await User.findOne({ email: req.body.email });
     if (!user) throw new Error();
     const match = await bcrypt.compare(req.body.password, user.password);
     if (!match) throw new Error();
@@ -32,6 +34,18 @@ async function login(req, res) {
     res.status(400).json('Bad Credentials');
   }
 }
+
+
+async function getUpdatedUser(req,res){
+  try{
+    const user = await User.findById(req.user._id).populate('favorite').exec();
+    console.log("controller" , user)
+    res.json(user)
+  } catch (err){
+    res.status(400).json(err)
+  }
+}
+
 
 /*--- Helper Functions --*/
 

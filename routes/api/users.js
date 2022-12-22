@@ -10,6 +10,7 @@ router.post('/', usersCtrl.create);
 // POST /api/users/login
 router.post('/login', usersCtrl.login);
 
+router.get('/updateUser',usersCtrl.getUpdatedUser)
 //stuff//
 
 

@@ -9,3 +9,7 @@ export async function login(credentials) {
   return sendRequest(`${BASE_URL}/login`, 'POST', credentials);
 }
 
+
+export async function updateUser() {
+  return sendRequest(`${BASE_URL}/updateUser`);
+}
