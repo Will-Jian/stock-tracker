@@ -8,26 +8,23 @@ Stock tracker is a free webiste that allows the users to track and follow stocks
 
 
 ## Screenshots:
-<img src="https://i.imgur.com/OjzsxOm.png">
-<img src="https://i.imgur.com/FDIosHj.png">
-<img src="https://i.imgur.com/9tbWtu6.png">
-<img src="https://i.imgur.com/L3t2S09.png">
-<img src="https://i.imgur.com/j3fprFT.png09.png">
-<img src="https://i.imgur.com/jFjmZkS.png">
+![Landing page](./public/images/landing.png)
+![Description](./public/images/descrip.png)
 
 <br>
 
 ## Technologies Used: 
-![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)
-![Django](https://img.shields.io/badge/-Django-05122A?style=flat&logo=django)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-05122A?style=flat&logo=postgresql)
-![HTML5](https://img.shields.io/badge/-HTML5-05122A?style=flat&logo=html5)
-![CSS3](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=css3)
-![Materialize CSS](https://img.shields.io/badge/-Materialize_CSS-05122A?style=flat&logo=materialdesign)
-![Trello](https://img.shields.io/badge/-Trello-05122A?style=flat&logo=trello)
-![Heroku](https://img.shields.io/badge/-Heroku-05122A?style=flat&logo=heroku)
-![Github](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)
-![VSCode](https://img.shields.io/badge/-VS_Code-05122A?style=flat&logo=visualstudio)
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![Mongo](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
+![Materialize CSS](	https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+![Trello](https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white)
+![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+![Github](	https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+![Node](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 
 ## Getting Started: 
 - **[Stock Tracker Link](https://stock-tracker.herokuapp.com)**
