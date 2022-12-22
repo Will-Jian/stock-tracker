@@ -39,7 +39,6 @@ async function login(req, res) {
 async function getUpdatedUser(req,res){
   try{
     const user = await User.findById(req.user._id).populate('favorite').exec();
-    console.log("controller" , user)
     res.json(user)
   } catch (err){
     res.status(400).json(err)
